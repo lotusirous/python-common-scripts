@@ -1,7 +1,7 @@
 import os
 from subprocess import check_output, STDOUT, CalledProcessError
 import shutil
-import hashlib
+
 
 def _execute_shell(cmd):
     status = False
