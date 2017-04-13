@@ -1,2 +1,2 @@
 # python-common-scripts
-Python common scripts
+This repository contains some python common functions.
