@@ -15,9 +15,6 @@ def _execute_shell(cmd):
     return status, output
 
 
-def hash_file(loc):
-    return hashlib.sha256(open(loc, 'rb').read()).hexdigest()
-
 def traverse(loc):
     for dirpath, dirnames, filenames in os.walk(loc):
         for basename in filenames:
