@@ -23,3 +23,7 @@ def traverse(loc):
 
 def copy_file(src, dst):
     shutil.copy2(src, dst)
+
+    
+# Get current directory
+working_dir = os.getcwd()
