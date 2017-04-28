@@ -1,7 +1,7 @@
 import os
 from subprocess import check_output, STDOUT, CalledProcessError
 import shutil
-
+import sys
 
 def _execute_shell(cmd):
     status = False
@@ -27,3 +27,8 @@ def copy_file(src, dst):
     
 # Get current directory
 working_dir = os.getcwd()
+
+
+# Import file from a directory
+sys.path.insert(0, '/path/to/application/app/folder')
+import file
