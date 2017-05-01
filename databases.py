@@ -2,7 +2,7 @@
 
 
 def mysql():
-    import MySQLdb # apt install python-mýqldb
+    import MySQLdb # apt install python-mysqldb
 
     # connect
     db = MySQLdb.connect(host="localhost", user="username", passwd="password",db="database_name")
