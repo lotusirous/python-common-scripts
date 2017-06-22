@@ -21,6 +21,7 @@ fig, ax = plt.subplots()
 ax.plot(aiodata['wait'], color='r',ls='--', linewidth=1.5, label='Proxied')
 ax.plot(plaindata['wait'], linewidth=1.5, label='Original')
 
+plt.title('Histogram of IQ')
 ax.grid(True,linestyle=':')
 ax.set_xlabel('Number of Requests')
 ax.set_ylabel('Response time (ms)')
