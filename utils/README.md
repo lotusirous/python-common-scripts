@@ -1,3 +1,5 @@
+
+```py
 import os
 from subprocess import check_output, STDOUT, CalledProcessError
 import shutil
@@ -24,7 +26,7 @@ def traverse(loc):
 def copy_file(src, dst):
     shutil.copy2(src, dst)
 
-    
+
 # Get current directory
 working_dir = os.getcwd()
 
@@ -32,3 +34,4 @@ working_dir = os.getcwd()
 # Import file from a directory
 sys.path.insert(0, '/path/to/application/app/folder')
 import file
+```

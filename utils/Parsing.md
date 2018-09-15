@@ -1,3 +1,10 @@
+
+- [HTML parsing](#html-parsing)
+
+### HTML parsing
+
+
+```py
 from bs4 import BeautifulSoup
 
 
@@ -23,3 +30,5 @@ class HtmlParser(object):
         # will return text
         scripts = self.soup.find_all('script')
         return [script.text for script in scripts]
+
+```
